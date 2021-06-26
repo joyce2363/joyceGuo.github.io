@@ -5,7 +5,6 @@ body {
     margin: 0; 
     padding: 0;
     background-color: #A1CCDF ;
-
 }
 
 .container {
@@ -67,6 +66,20 @@ nav a:hover::before {
   width: 100%;
 }
 
+.blueRectangle
+    {
+      position: relative;
+      top: -10%;
+      margin-right: -200px;
+    }
+    .joyceWithDog
+    {
+      position: relative;
+      /* bottom: 220px; */
+      margin-left: -90px;
+      margin-bottom: -30px;
+    } 
+
 .img-box{
     width: 0px;
 }
@@ -74,5 +87,24 @@ nav a:hover::before {
     display: block;
 }
 
+#blueRectangle {
+    margin-left: 100px;
+}
 
+/* side by side icons */
+.column {
+    position: relative;
+    top: -120px;
+    left: 10%;
+    float: left;
+    width: 6%;
+   
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
   

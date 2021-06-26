@@ -103,7 +103,7 @@ nav a:hover::before {
     display: block;
 }
 
-/* side by side pics */
+/* side by side icons */
 .column {
     position: relative;
     top: -180px;
